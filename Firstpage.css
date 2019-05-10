@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    text-shadow: 4px;
+    background-image: url("/Users/carolinesmacbook/Desktop/Github/ExamProject/teal-watercolour-watercolour-plain-KJ-820x532.jpg");
+    background-repeat: none;
+}
+
+.nav1 {
+    margin-left: 40px;
+    float: left;
+}
+
+.nav2 {
+    margin-right: 40px;
+    float: right;
+}
+
+.log-in {
+    margin: 0;
+    float: left;
+
+}
+.search {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.prefs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.results {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content {
+    width: 600px;
+    margin: 0px auto;
+    height: 100%;
+    background-color:lightgrey;
+    opacity: 0.8;
+}
+
+.containerright {
+    overflow:hidden;
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: gray;
+    margin-left: 50px;
+}
+
+header {
+    background:whitesmoke;
+}
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: right;
+    padding: 10px 0;
+}
+
+nav{
+    float: left;
+}
+
+nav ul {
+    margin: 3px;
+    padding: 3px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav a:hover  {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 550ms;
+}
+
+nav a:hover::before {
+width: 100%;
+}
